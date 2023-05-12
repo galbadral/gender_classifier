@@ -2,6 +2,7 @@ import streamlit as st
 from fastai.vision.all import *
 import gdown
 from PIL import Image
+import altair
 
 st.markdown("""# Gender Classifier Galbadral
 
