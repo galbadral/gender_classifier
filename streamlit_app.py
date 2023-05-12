@@ -22,7 +22,7 @@ model_path = Path("export.pkl")
 
 if not model_path.exists():
     with st.spinner("Downloading model... this may take awhile! \n Don't stop it!"):
-        url = 'https://drive.google.com/uc?id=1UvT_5Q3PNC_qrQ6lpLmsag_v5cnpQnwJ'
+        url = 'https://drive.google.com/uc?id=1YCPTZAjsf13-tECx3wX2uX_OQntBTyHz'
         output = 'export.pkl'
         gdown.download(url, output, quiet=False)
     learn_inf = load_learner('export.pkl')
