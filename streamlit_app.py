@@ -1,5 +1,4 @@
 import streamlit as st
-import torch
 from fastai.vision.all import *
 import gdown
 
@@ -10,6 +9,7 @@ As I have done gender calssification from the black white picture dataframe with
 This time I tried to show how fastai is compare to them
 
 This app was created as a demo for the Deep Learning course at LETU Mongolia American University.""")
+
 
 st.markdown("""### Upload your image here""")
 
